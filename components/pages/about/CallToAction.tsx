@@ -10,9 +10,8 @@ const CallToAction = () => {
         <Image
           src="/action.png"
           alt="Children smiling"
-          priority
-          quality={100}
-          fill
+          width={1200}
+          height={400}
           className="w-full h-[400px] object-cover"
         />
 
