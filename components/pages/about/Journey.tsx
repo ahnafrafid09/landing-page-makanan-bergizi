@@ -58,10 +58,10 @@ const Journey = () => {
                 <Image
                   src={img}
                   alt="Journey Image"
-                  width={500}
-                  height={350}
+                  priority
+                  quality={100}
+                  fill
                   className="rounded-lg w-full h-auto"
-                  unoptimized
                 />
               </SwiperSlide>
             ))}

@@ -8,11 +8,10 @@ const VideoPlayer = () => {
         <Image
           src="/assets/video.png"
           alt="Fake Video"
-          width={1000}
-          height={1000}
-          objectFit="cover"
-          className="w-full rounded-lg"
-          unoptimized
+          priority
+          quality={100}
+          fill
+          className="w-full rounded-lg object-cover"
         />
 
         <button className="absolute inset-0 flex items-center justify-center">

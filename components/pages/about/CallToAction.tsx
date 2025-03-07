@@ -10,10 +10,10 @@ const CallToAction = () => {
         <Image
           src="/assets/action.png"
           alt="Children smiling"
-          width={1200}
-          height={400}
+          priority
+          quality={100}
+          fill
           className="w-full h-[400px] object-cover"
-          unoptimized
         />
 
         {/* Overlay dengan teks */}
