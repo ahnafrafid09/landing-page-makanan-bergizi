@@ -1,0 +1,11 @@
+Persyaratan
+1. Install Node.Js versi >=19 (Jika Belum Punya)
+2. NPM atau Yarn (Sudah termasuk dengan paket instalasi node)
+
+Cara Install dan Buka Aplikasi 
+
+1. Extract folder landing-page-makan-siang.zip
+2. Setelah di extract, klik kanan di folder hasil extractnya lalu pilih open in terminal
+3. Setelah terminal terbuka ketikan npm install di terminal
+4. Seletah beres di install lalu ketikan npm run dev untuk membuka aplikasinya
+5. Setelah di run webnya lalu buka browser dan masuk ke localhost:3000
