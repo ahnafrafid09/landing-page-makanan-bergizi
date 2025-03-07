@@ -11,11 +11,7 @@ const stats = [
   { number: "20+", name: "Sekolah Terbantu" },
 ];
 
-const images = [
-  "/assets/journey.png",
-  "/assets/journey.png",
-  "/assets/journey.png",
-];
+const images = ["/journey.png", "/journey.png", "/journey.png"];
 
 const Journey = () => {
   return (

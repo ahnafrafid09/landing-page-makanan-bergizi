@@ -8,7 +8,7 @@ const CallToAction = () => {
     <section className="mt-24 container mx-auto px-6">
       <div className="relative w-full rounded-lg overflow-hidden">
         <Image
-          src="/assets/action.png"
+          src="/action.png"
           alt="Children smiling"
           priority
           quality={100}
