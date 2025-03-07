@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="mt-24 container mx-auto px-4">
       <div className="relative w-full">
         <Image
-          src="/assets/Action.png"
+          src="/assets/action.png"
           alt="Children smiling"
           width={1200}
           height={400}

@@ -6,7 +6,7 @@ const VideoPlayer = () => {
     <div className="container mx-auto mt-24">
       <div className="relative w-full">
         <Image
-          src="/assets/Video.png"
+          src="/assets/video.png"
           alt="Fake Video"
           width={1000}
           height={1000}

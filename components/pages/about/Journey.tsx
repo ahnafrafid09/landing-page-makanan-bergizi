@@ -12,9 +12,9 @@ const stats = [
 ];
 
 const images = [
-  "/assets/Journey.png",
-  "/assets/Journey.png",
-  "/assets/Journey.png",
+  "/assets/journey.png",
+  "/assets/journey.png",
+  "/assets/journey.png",
 ];
 
 const Journey = () => {
