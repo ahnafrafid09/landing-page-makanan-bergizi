@@ -12,6 +12,7 @@ const VideoPlayer = () => {
           height={1000}
           objectFit="cover"
           className="w-full rounded-lg"
+          unoptimized
         />
 
         <button className="absolute inset-0 flex items-center justify-center">

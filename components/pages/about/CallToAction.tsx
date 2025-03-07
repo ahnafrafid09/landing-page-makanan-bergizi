@@ -8,11 +8,12 @@ const CallToAction = () => {
     <section className="mt-24 container mx-auto px-6">
       <div className="relative w-full rounded-lg overflow-hidden">
         <Image
-          src="/assets/Action.png"
+          src="/assets/action.png"
           alt="Children smiling"
           width={1200}
           height={400}
           className="w-full h-[400px] object-cover"
+          unoptimized
         />
 
         {/* Overlay dengan teks */}

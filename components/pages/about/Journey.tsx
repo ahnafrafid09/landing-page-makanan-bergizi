@@ -61,6 +61,7 @@ const Journey = () => {
                   width={500}
                   height={350}
                   className="rounded-lg w-full h-auto"
+                  unoptimized
                 />
               </SwiperSlide>
             ))}
