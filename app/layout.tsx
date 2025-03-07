@@ -12,6 +12,7 @@ const roboto = Roboto({
 const courgette = Courgette({
   variable: "--font-courgette",
   weight: "400",
+  subsets: ["latin", "latin-ext"],
 });
 
 export const metadata: Metadata = {
