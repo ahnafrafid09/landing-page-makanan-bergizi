@@ -11,6 +11,7 @@
 @theme inline {
   --font-roboto: var(--font-roboto);
   --font-logo: var(--font-courgette);
+  --font-poppins: var(--font-poppins);
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
   --color-darken: var(--darken);
