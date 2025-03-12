@@ -31,34 +31,29 @@ export default function SignUpForm() {
       {/* Kanan: Form Sign Up */}
       <div className="w-full lg:w-1/2 flex items-center justify-center px-4 sm:px-6 bg-[#0a0b2e] lg:bg-transparent">
         <div className="max-w-md w-full bg-white lg:bg-transparent p-6 lg:p-0 rounded-2xl shadow-lg lg:shadow-none">
-          <h2 className="text-3xl font-semibold text-[#101828] lg:text-left text-center">
+          <h2 className="text-3xl font-semibold text-[#101828] dark:text-white lg:text-left text-center">
             Create an account
           </h2>
 
           <form className="mt-6">
             {/* Email Input */}
             <div>
-              <label className="block text-[#344054] space-y-3">Email</label>
+              <label className="block text-gray space-y-3">Email</label>
               <input
                 type="email"
                 placeholder="balamia@gmail.com"
-                className="mt-1 w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-[#D1E9FF] focus:ring-0 "
+                className="mt-1 w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-[#D1E9FF] focus:ring-0 dark:placeholder:text-gray"
               />
             </div>
 
             {/* Password Input */}
             <div className="mt-6 relative">
-              <div className="flex justify-between items-center">
-                <label className="block text-[#344054] space-y-3">
-                  Password
-                </label>
-                <p className="text-[#1570EF] cursor-pointer">Forgot?</p>
-              </div>
+              <label className="block text-gray space-y-3">Password</label>
               <div className="relative">
                 <input
                   type={showPassword ? "text" : "password"}
                   placeholder="Enter your password"
-                  className="mt-1 w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-0 focus:outline-[#D1E9FF]"
+                  className="mt-1 w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-0 focus:outline-[#D1E9FF] dark:placeholder:text-gray"
                 />
                 {/* Ikon Mata (Show/Hide Password) */}
                 <span

@@ -1,5 +1,5 @@
 import CallToAction from "@/components/CallToAction";
-import Calendar from "@/components/pages/about/Calendar";
+import Calendar from "@/components/Calendar";
 import HeroSection from "@/components/pages/home/HeroSection";
 import KnowAboutUs from "@/components/pages/home/KnowAboutUs";
 import ProgramObjective from "@/components/pages/home/ProgramObjective";

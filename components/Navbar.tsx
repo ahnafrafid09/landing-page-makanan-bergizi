@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Button from "./Button";
 import { usePathname } from "next/navigation";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 const links = [
   { title: "Home", path: "/" },
@@ -18,11 +19,11 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="py-4.5 border-b border-black/40 fixed top-0 left-0 w-full bg-white z-50">
+    <nav className="py-4.5 border-b border-black/40 fixed top-0 left-0 w-full bg-white dark:bg-black z-50">
       <div className="container mx-auto flex justify-between items-center px-4">
         {/* Logo */}
         <Link href="#">
-          <h1 className="font-bold text-2xl">
+          <h1 className="font-bold text-2xl dark:text-white">
             Maksi<span className="font-logo font-normal">fy</span>
           </h1>
         </Link>
@@ -34,8 +35,9 @@ const Navbar = () => {
               href={link.path}
               key={index}
               className={`${
-                link.path === pathname && "text-black border-b-2 border-darken"
-              } text-gray text-[16px] hover:text-black transition-all duration-200`}
+                link.path === pathname &&
+                "text-black dark:text-white border-b-2 border-darken dark:border-white"
+              } text-gray text-[16px] hover:text-black  dark:hover:text-white transition-all duration-200`}
             >
               {link.title}
             </Link>
@@ -43,12 +45,13 @@ const Navbar = () => {
         </div>
 
         {/* Sign Up Button */}
-        <div className="hidden md:block">
+        <div className="hidden md:flex items-center justify-center gap-5">
           <Link href="/signup">
             <Button className="py-3 px-8" variant="darken">
               Sign Up
             </Button>
           </Link>
+          <ThemeSwitcher />
         </div>
 
         {/* Mobile Menu Button */}

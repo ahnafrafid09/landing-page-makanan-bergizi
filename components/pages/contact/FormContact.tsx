@@ -50,7 +50,7 @@ const FormContact = () => {
             <div className="w-full min-w-0">
               <label
                 htmlFor="firstName"
-                className="block text-sm font-medium mb-1 sm:mb-2"
+                className="block text-sm font-medium mb-1 sm:mb-2 dark:text-white"
               >
                 First Name
               </label>
@@ -61,7 +61,7 @@ const FormContact = () => {
                 value={formData.firstName}
                 onChange={handleChange}
                 required
-                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary"
+                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary dark:border-gray placeholder:text-gray"
               />
             </div>
 
@@ -69,7 +69,7 @@ const FormContact = () => {
             <div className="w-full min-w-0">
               <label
                 htmlFor="lastName"
-                className="block text-sm font-medium mb-1 sm:mb-2"
+                className="block text-sm font-medium mb-1 sm:mb-2 dark:text-white"
               >
                 Last Name
               </label>
@@ -80,7 +80,7 @@ const FormContact = () => {
                 value={formData.lastName}
                 onChange={handleChange}
                 required
-                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary"
+                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary dark:border-gray placeholder:text-gray"
               />
             </div>
 
@@ -88,7 +88,7 @@ const FormContact = () => {
             <div className="w-full min-w-0">
               <label
                 htmlFor="email"
-                className="block text-sm font-medium mb-1 sm:mb-2"
+                className="block text-sm font-medium mb-1 sm:mb-2 dark:text-white"
               >
                 Email
               </label>
@@ -99,7 +99,7 @@ const FormContact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary"
+                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary dark:border-gray placeholder:text-gray"
               />
             </div>
 
@@ -107,7 +107,7 @@ const FormContact = () => {
             <div className="w-full min-w-0">
               <label
                 htmlFor="subject"
-                className="block text-sm font-medium mb-1 sm:mb-2"
+                className="block text-sm font-medium mb-1 sm:mb-2 dark:text-white"
               >
                 Subject
               </label>
@@ -117,7 +117,7 @@ const FormContact = () => {
                 value={formData.subject}
                 onChange={handleChange}
                 required
-                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary"
+                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary dark:border-gray placeholder:text-gray"
               />
             </div>
 
@@ -125,7 +125,7 @@ const FormContact = () => {
             <div className="md:col-span-2 w-full">
               <label
                 htmlFor="message"
-                className="block text-sm font-medium mb-1 sm:mb-2"
+                className="block text-sm font-medium mb-1 sm:mb-2 dark:text-white"
               >
                 Message
               </label>
@@ -135,7 +135,7 @@ const FormContact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 required
-                className="w-full min-h-[150px] border border-black bg-transparent px-3 py-2 rounded-md focus:outline-none focus:border-primary"
+                className="w-full min-h-[150px] border border-black bg-transparent px-3 py-2 rounded-md focus:outline-none focus:border-primary dark:border-gray placeholder:text-gray"
               />
             </div>
 

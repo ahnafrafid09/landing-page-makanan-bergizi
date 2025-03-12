@@ -28,7 +28,7 @@ const WhatWeDo = () => {
     <section className="container mx-auto mt-24 px-6 sm:px-8 md:px-12">
       <TitlePage>Yang Kami Lakukan</TitlePage>
       <div className="mt-10 space-y-10 text-center md:text-start">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight max-w-xl">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight max-w-xl dark:text-white">
           Kami memberikan fasilitas untuk membantu tumbuh kembang anak
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -43,7 +43,7 @@ const WhatWeDo = () => {
                 height={400}
                 quality={100}
                 alt="bg image"
-                className="w-full h-auto max-h-[400px] object-cover"
+                className="w-full h-auto max-h-[400px] object-cover filter dark:grayscale"
               />
               <div className="absolute inset-0 flex items-center justify-center text-white flex-col px-6 sm:px-10 bg-black/40 text-center">
                 <h3 className="text-xl sm:text-2xl font-bold leading-[1.4]">

@@ -12,7 +12,7 @@ const CallToAction = () => {
           alt="Children smiling"
           width={1200}
           height={400}
-          className="w-full h-[400px] object-cover"
+          className="w-full h-[400px] object-cover dark:grayscale"
         />
 
         {/* Overlay dengan teks */}

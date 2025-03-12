@@ -1,4 +1,4 @@
-import Calendar from "@/components/pages/about/Calendar";
+import Calendar from "@/components/Calendar";
 import CallToAction from "@/components/CallToAction";
 import HeroSection from "@/components/pages/about/HeroSection";
 import Journey from "@/components/pages/about/Journey";

@@ -11,7 +11,7 @@ interface CardProps {
 }
 const TestimonialCard = ({ name, job, rating, review, photo }: CardProps) => {
   return (
-    <div className="relative bg-white shadow-lg rounded-2xl p-5 pt-10 w-[350px] flex flex-col overflow-visible">
+    <div className="relative bg-white dark:bg-darken shadow-lg rounded-2xl p-5 pt-10 w-[350px] flex flex-col overflow-visible">
       {/* Foto Profil */}
       <Image
         src={photo}
@@ -25,8 +25,10 @@ const TestimonialCard = ({ name, job, rating, review, photo }: CardProps) => {
       {/* Nama & Pekerjaan */}
       <div className="flex items-center justify-between">
         <div className="mt-4">
-          <h3 className="text-lg font-semibold">{name}</h3>
-          <p className="text-sm text-gray-500">{job}</p>
+          <h3 className="text-lg text-darken dark:text-white font-semibold">
+            {name}
+          </h3>
+          <p className="text-sm text-gray">{job}</p>
         </div>
 
         {/* Rating Bintang */}
@@ -43,7 +45,7 @@ const TestimonialCard = ({ name, job, rating, review, photo }: CardProps) => {
       </div>
 
       {/* Deskripsi Testimoni */}
-      <p className="text-sm text-gray-600 mt-2 line-clamp-3">{review}</p>
+      <p className="text-sm text-gray/80 mt-2 line-clamp-3">{review}</p>
     </div>
   );
 };

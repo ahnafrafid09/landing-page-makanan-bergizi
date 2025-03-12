@@ -15,10 +15,10 @@ const images = ["/journey.png", "/journey.png", "/journey.png"];
 
 const Journey = () => {
   return (
-    <div className="mt-24 bg-primary py-16 rounded-md">
+    <div className="mt-24 bg-primary dark:bg-secondary py-16 rounded-md">
       <div className="container mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-20 px-6 sm:px-10 md:px-1">
         {/* Left Content */}
-        <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
+        <div className="w-full md:w-1/2 space-y-6 text-center md:text-left dark:text-white">
           <h2 className="font-bold tracking-[2px]">Perjalanan Kami</h2>
           <h1 className="font-bold text-2xl leading-[1.2]">
             Bagaimana Kami Menyediakan Jutaan Makanan Gratis
@@ -56,7 +56,7 @@ const Journey = () => {
                   alt="Journey Image"
                   width={500}
                   height={350}
-                  className="rounded-lg w-full h-auto"
+                  className="rounded-lg w-full h-auto dark:grayscale"
                 />
               </SwiperSlide>
             ))}

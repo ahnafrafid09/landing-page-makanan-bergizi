@@ -12,7 +12,7 @@ const HeroSection = () => {
           height={1000}
           quality={100}
           priority
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover dark:grayscale"
           alt="Hero Image"
         />
         <div className="absolute inset-0 bg-black/50"></div>

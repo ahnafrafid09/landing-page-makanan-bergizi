@@ -2,7 +2,7 @@ import React from "react";
 
 const VisionMision = () => {
   return (
-    <div className="bg-secondary min-h-[571px] mt-24 text-darken flex items-center justify-center">
+    <div className="bg-secondary min-h-[571px] mt-24 text-darken flex items-center justify-center dark:text-white">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-10 md:gap-20 px-6 sm:px-10 md:px-1">
         {/* Mission */}
         <div className="w-full md:w-1/2 space-y-5 text-center md:text-left">

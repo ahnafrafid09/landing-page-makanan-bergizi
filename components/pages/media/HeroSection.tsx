@@ -27,7 +27,7 @@ const HeroSection = () => {
           {/* left section */}
           <div className="md:w-1/2">
             <TitlePage>Top News</TitlePage>
-            <div className="mt-10 md:mt-24 space-y-4 md:space-y-10  w-full max-w-md">
+            <div className="mt-10 space-y-4 md:space-y-10 text-darken dark:text-white w-full max-w-md">
               <h1 className="text-center md:text-start text-5xl font-bold leading-[1.2]">
                 Misi Kami Untuk Anak - Anak
               </h1>
@@ -40,12 +40,12 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="md:w-1/2 ">
-            <div className="bg-white w-full max-w-xl flex items-center justify-center flex-col gap-4 py-5 rounded-2xl">
+            <div className="bg-white dark:bg-darken w-full max-w-xl flex items-center justify-center flex-col gap-4 py-5 rounded-2xl">
               {data.map((data, index) => {
                 return (
                   <div
                     key={index}
-                    className="flex bg-white overflow-hidden max-w-lg px-4 md:px-0"
+                    className="flex bg-white dark:bg-darken overflow-hidden max-w-lg px-4 md:px-0"
                   >
                     <div className="w-1/3">
                       <Image
@@ -57,11 +57,11 @@ const HeroSection = () => {
                       />
                     </div>
                     <div className="w-2/3 p-4 space-y-2">
-                      <h3 className="font-bold text-lg">{data.title}</h3>
-                      <p className="text-sm text-gray-500">{data.date}</p>
-                      <p className="text-xs text-gray-700">
-                        {data.description}
-                      </p>
+                      <h3 className="font-bold text-lg text-darken dark:text-white">
+                        {data.title}
+                      </h3>
+                      <p className="text-sm text-gray/80">{data.date}</p>
+                      <p className="text-xs text-gray">{data.description}</p>
                     </div>
                   </div>
                 );

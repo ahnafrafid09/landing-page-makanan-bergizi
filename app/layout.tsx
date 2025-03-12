@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Courgette, Poppins } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/context/ThemeProvider";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -31,11 +32,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${roboto.variable} ${courgette.variable} ${poppins.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <ThemeProvider>
+        <body
+          className={`${roboto.variable} ${courgette.variable} ${poppins.variable} antialiased`}
+        >
+          {children}
+        </body>
+      </ThemeProvider>
     </html>
   );
 }

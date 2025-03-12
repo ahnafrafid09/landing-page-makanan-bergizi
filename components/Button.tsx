@@ -22,9 +22,12 @@ const Button: React.FC<ButtonProps> = ({
   onClick,
 }) => {
   const variantClasses = {
-    primary: "bg-primary hover:bg-primary/80 text-black",
-    darken: "bg-darken hover:bg-darken/80 text-white",
-    light: "bg-white hover:bg-gray-400 text-darken",
+    primary:
+      "bg-primary hover:bg-primary/80 text-black dark:bg-white dark:hover:bg-white/80 dark:text-darken",
+    darken:
+      "bg-darken hover:bg-darken/80 text-white dark:bg-white hover:dark:bg-white/80 dark:text-darken",
+    light:
+      "bg-white hover:bg-white/80 text-darken dark:bg-secondary dark:text-white dark:hover:bg-secondary/80 ",
     custom: customColor,
   }[variant];
 

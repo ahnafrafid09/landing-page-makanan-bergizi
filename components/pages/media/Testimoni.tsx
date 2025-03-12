@@ -48,7 +48,7 @@ const testimonials = [
   {
     name: "Sophia",
     job: "Entrepreneur",
-    rating: 5,
+    rating: 4,
     review:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     photo: "https://randomuser.me/api/portraits/women/28.jpg",
@@ -88,7 +88,7 @@ const Testimoni = () => {
 
   return (
     <section className="my-24 ">
-      <h1 className="text-4xl sm:text-5xl text-center font-bold mb-10">
+      <h1 className="text-4xl sm:text-5xl text-center font-bold mb-10 text-darken dark:text-white">
         Testimoni
       </h1>
 
@@ -101,7 +101,7 @@ const Testimoni = () => {
           quality={100}
           priority
           alt="bg"
-          className="w-full h-[435px] object-cover"
+          className="w-full h-[435px] object-cover dark:grayscale"
         />
 
         <div className="absolute inset-0 bg-black/70 flex flex-col items-center justify-center">

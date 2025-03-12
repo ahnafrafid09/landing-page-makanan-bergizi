@@ -6,11 +6,11 @@ const HeroSection = () => {
     <div className="mt-24 container mx-auto px-4">
       <TitlePage>Tentang Kami</TitlePage>
       <div className="flex flex-col lg:flex-row lg:h-[221px] mt-5 justify-between items-start gap-6">
-        <h1 className="font-bold leading-[1.2] text-darken text-[32px] md:text-[40px] lg:text-[45px] max-w-sm">
+        <h1 className="font-bold leading-[1.2] text-darken dark:text-white text-[32px] md:text-[40px] lg:text-[45px] max-w-sm">
           Makanan Bergizi dan Masa Depan Cerah
         </h1>
         <div className="w-full lg:w-[804px] flex flex-col justify-between h-full">
-          <h2 className="text-[18px] md:text-[20px] font-bold">
+          <h2 className="text-[18px] md:text-[20px] font-bold dark:text-white">
             Menyediakan makan siang gratis bagi siswa, karena setiap anak berhak
             mendapatkan makanan sehat untuk tumbuh dan belajar.
           </h2>

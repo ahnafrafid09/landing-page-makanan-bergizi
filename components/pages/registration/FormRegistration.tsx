@@ -49,7 +49,7 @@ const FormRegistration = () => {
             <div className="w-full min-w-0">
               <label
                 htmlFor="institute"
-                className="block text-sm font-medium mb-1 sm:mb-2"
+                className="block text-sm font-medium mb-1 sm:mb-2 dark:text-white"
               >
                 Nama Instansi
               </label>
@@ -60,14 +60,14 @@ const FormRegistration = () => {
                 value={formData.institute}
                 onChange={handleChange}
                 required
-                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary"
+                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary dark:border-gray placeholder:text-gray"
               />
             </div>
 
             <div className="w-full min-w-0">
               <label
                 htmlFor="educationLevel"
-                className="block text-sm font-medium mb-1 sm:mb-2"
+                className="block text-sm font-medium mb-1 sm:mb-2 dark:text-white"
               >
                 Jenjang Pendidikan
               </label>
@@ -78,14 +78,14 @@ const FormRegistration = () => {
                 value={formData.educationLevel}
                 onChange={handleChange}
                 required
-                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary"
+                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary dark:border-gray placeholder:text-gray"
               />
             </div>
 
             <div className="w-full min-w-0">
               <label
                 htmlFor="totalStudents"
-                className="block text-sm font-medium mb-1 sm:mb-2"
+                className="block text-sm font-medium mb-1 sm:mb-2 dark:text-white"
               >
                 Jumlah Siswa
               </label>
@@ -95,14 +95,14 @@ const FormRegistration = () => {
                 value={formData.totalStudents}
                 onChange={handleChange}
                 required
-                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary"
+                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary dark:border-gray placeholder:text-gray"
               />
             </div>
 
             <div className="w-full min-w-0">
               <label
                 htmlFor="contact"
-                className="block text-sm font-medium mb-1 sm:mb-2"
+                className="block text-sm font-medium mb-1 sm:mb-2 dark:text-white"
               >
                 Kontak
               </label>
@@ -113,7 +113,7 @@ const FormRegistration = () => {
                 onChange={handleChange}
                 placeholder="johndoe@gmail.com"
                 required
-                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary"
+                className="w-full border-b border-black bg-transparent px-3 py-2 focus:outline-none focus:border-primary dark:border-gray placeholder:text-gray"
               />
             </div>
 
@@ -121,7 +121,7 @@ const FormRegistration = () => {
             <div className="md:col-span-2 w-full">
               <label
                 htmlFor="message"
-                className="block text-sm font-medium mb-1 sm:mb-2"
+                className="block text-sm font-medium mb-1 sm:mb-2 dark:text-white"
               >
                 Message
               </label>
@@ -131,7 +131,7 @@ const FormRegistration = () => {
                 value={formData.message}
                 onChange={handleChange}
                 required
-                className="w-full min-h-[150px] border border-black bg-transparent px-3 py-2 rounded-md focus:outline-none focus:border-primary"
+                className="w-full min-h-[150px] border border-black bg-transparent px-3 py-2 rounded-md focus:outline-none focus:border-primary dark:border-gray placeholder:text-gray"
               />
             </div>
 

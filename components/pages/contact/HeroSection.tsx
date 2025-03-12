@@ -10,8 +10,7 @@ const HeroSection = () => {
           alt="Children smiling"
           width={1200}
           height={400}
-          className="w-full h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] object-cover rounded-lg"
-          unoptimized
+          className="w-full h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] object-cover rounded-lg dark:grayscale"
         />
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
