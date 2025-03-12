@@ -21,22 +21,28 @@ const HeroSection = () => {
 
         <div className="space-y-14">
           <div>
-            <h3 className="text-2xl font-semibold">Let{"'"}s talk!</h3>
-            <p className="mt-2 text-darken dark:text-white">
+            <h3 className="text-2xl font-semibold dark:text-white">
+              Let{"'"}s talk!
+            </h3>
+            <p className="mt-2 text-darken dark:text-gray">
               +234 09012346514
               <span className="ml-2">hello@largerthani.com</span>
             </p>
           </div>
 
           <div className="mt-6">
-            <h4 className="text-lg font-semibold">Headoffice</h4>
-            <p className="text-darken dark:text-white">
+            <h4 className="text-lg font-semibold dark:text-white">
+              Headoffice
+            </h4>
+            <p className="text-darken dark:text-gray">
               8 Brewery Drive, Lagos, Nigeria.
             </p>
           </div>
 
           <div className="mt-4">
-            <h4 className="text-lg font-semibold">Branch Office</h4>
+            <h4 className="text-lg font-semibold dark:text-white">
+              Branch Office
+            </h4>
             <p className="text-gray">
               Opp Opolo round about, Yenagoa, Bayelsa, Nigeria.
             </p>
