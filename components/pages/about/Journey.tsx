@@ -56,7 +56,7 @@ const Journey = () => {
                   alt="Journey Image"
                   width={500}
                   height={350}
-                  className="rounded-lg w-full h-auto dark:grayscale"
+                  className="rounded-lg w-full h-auto "
                 />
               </SwiperSlide>
             ))}

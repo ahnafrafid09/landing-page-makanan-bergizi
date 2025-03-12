@@ -101,7 +101,7 @@ const Testimoni = () => {
           quality={100}
           priority
           alt="bg"
-          className="w-full h-[435px] object-cover dark:grayscale"
+          className="w-full h-[435px] object-cover "
         />
 
         <div className="absolute inset-0 bg-black/70 flex flex-col items-center justify-center">

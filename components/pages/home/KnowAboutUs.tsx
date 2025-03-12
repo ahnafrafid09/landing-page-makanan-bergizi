@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import TitlePage from "@/components/TitlePage";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const KnowAboutUs = () => {
@@ -23,7 +24,9 @@ const KnowAboutUs = () => {
               berharap siswa dapat tumbuh dengan energi positif dan meraih
               prestasi maksimal di sekolah.
             </p>
-            <Button>Pelajari Lebih Lanjut</Button>
+            <Link href="/about">
+              <Button>Pelajari Lebih Lanjut</Button>
+            </Link>
           </div>
         </div>
         {/* Right section */}
@@ -35,7 +38,7 @@ const KnowAboutUs = () => {
             quality={100}
             priority
             alt="know about us image"
-            className="w-[80%] sm:w-[480px] h-auto object-contain dark:grayscale"
+            className="w-[80%] sm:w-[480px] h-auto object-contain "
           />
         </div>
       </div>

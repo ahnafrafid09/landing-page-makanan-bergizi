@@ -69,7 +69,7 @@ const ProgramObjective = () => {
               quality={100}
               priority
               alt="home image"
-              className="max-w-[80%] sm:max-w-[480px] h-auto object-contain dark:grayscale"
+              className="max-w-[80%] sm:max-w-[480px] h-auto object-contain "
             />
           </div>
         </div>

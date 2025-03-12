@@ -43,7 +43,7 @@ const WhatWeDo = () => {
                 height={400}
                 quality={100}
                 alt="bg image"
-                className="w-full h-auto max-h-[400px] object-cover filter dark:grayscale"
+                className="w-full h-auto max-h-[400px] object-cover filter "
               />
               <div className="absolute inset-0 flex items-center justify-center text-white flex-col px-6 sm:px-10 bg-black/40 text-center">
                 <h3 className="text-xl sm:text-2xl font-bold leading-[1.4]">
